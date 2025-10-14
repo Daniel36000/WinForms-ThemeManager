@@ -7,7 +7,7 @@ Easily switch between Dark and Light modes, and apply custom styling to any cont
 
 ## ✨ Features
 
-- ✅ Supports any WinForms control — including third-party controls like Guna.UI2
+- ✅ Supports any WinForms control — including third-party controls like Guna.UI2,...
 - 🎨 Apply theme-specific values for multiple properties (Color, Font, int, bool, string...)
 - 🔍 Validates property names and types at registration time to prevent silent errors
 - 🔁 Toggle between Dark and Light mode with a single call
@@ -49,6 +49,7 @@ ThemeManager.Register(label1, "Text", "Dark Mode", "Light Mode");
 //...
 ```
 ### 3. Call methods to toggle theme
+
 The following mode-switching methods are available for use:
 - Switches the mode between light and dark:
 ```csharp
@@ -66,3 +67,37 @@ ThemeManager.Refresh();
 ```csharp
 ThemeManager.Refresh(Control control);
 ```
+
+---
+
+## 🧠 Why this over other libraries?
+
+Unlike skinning frameworks or vendor-specific solutions, `ThemeManager` gives you:
+- Full control over individual properties
+- Support for any control type
+- No external dependencies
+- Easy integration into existing projects
+
+---
+
+## 📌 Notes
+
+- Requires .NET Framework or .NET Core with WinForms
+- Compatible with C# 7.0 and above (no advanced syntax used)
+- You can extend it to support more types or persist theme settings
+
+---
+
+## 📂 License
+
+This project is released under the MIT License.  
+Feel free to use, modify, and share it in your own projects.
+
+---
+
+## 💬 Feedback & Contributions
+
+If you find this useful, give it a ⭐ on GitHub!  
+Issues, suggestions, or pull requests are welcome.
+
+---
