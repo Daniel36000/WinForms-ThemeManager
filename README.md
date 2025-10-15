@@ -34,7 +34,7 @@ Then, register control need to manage:
 ThemeManager.Register(label1, new Dictionary<string, (object, object)> {
     {"ForeColor", (Color.White, Color.Black)},
     {"BackColor", (Color.Black, Color.White)},
-    {"Font", (new Font("Segoe UI", 12), new Font("Segoe UI", 10))},
+    {"Font", (new Font("Segoe UI", 12), new Font("Arial", 10))},
     {"Text", ("Dark Mode", "Light Mode")}
     //...
 });
