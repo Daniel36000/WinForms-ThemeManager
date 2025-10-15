@@ -27,9 +27,10 @@ First, you must declare the namespace:
 ```csharp
 using K.ThemeSupport;
 ```
-Then, register control need to manage:
+Then, register controls need to manage:
 - Register with multi properties  
-  If the control is already registered, this method overrides its current PropertyMap with a new one
+  If the control is already registered, this method overrides its current PropertyMap with a new one  
+  Example:
 ```csharp
 ThemeManager.Register(label1, new Dictionary<string, (object, object)> {
     {"ForeColor", (Color.White, Color.Black)},
@@ -40,7 +41,8 @@ ThemeManager.Register(label1, new Dictionary<string, (object, object)> {
 });
 ```
 - Or you can register with a single property  
-  If the control is already registered, this method add new property to PropertyMap
+  If the control is already registered, this method add new property to PropertyMap  
+  Example:
 ```csharp
 ThemeManager.Register(label1, "ForeColor", Color.White, Color.Black);
 ThemeManager.Register(label1, "BackColor", Color.Black, Color.White);
